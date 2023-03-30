@@ -1,0 +1,8 @@
+print(f"{8 * '<'}DESAFIO000{8 * '>'}")
+print(f'{5 * "<" }1°mini-desafio de python{5 * ">"}')
+nome = input('diga-me seu nome: ')
+idade = input('diga sua idade: ')
+altura = input('Diga sua altura: ')
+peso = input('diga seu peso: ')
+s = int(idade) + float(altura) + int(peso)
+print(f'é um prazer te conhecer {nome}!, percebi q você é bem novo e q a soma do seu peso: {peso}kg, mais idade sua idade: {idade} anos, mais a sua altura: {altura}m é: {s}!')

@@ -1,0 +1,7 @@
+print(f"{8 * '<'}DESAFIO001{8 * '>'}")
+print(f'{5 * "<" }2°mini-desafio de python{5 * ">"}')
+n = input('digite algo: ')
+print(f'A classe do que foi digitado é: {type(n)}')
+print(f'O q foi digitado é maiusculo? {n.isupper()}')
+print(f'Oq foi digitado é uma alpha? {n.isalpha()}')
+print(f'Oq foi digitado é um decimal? {n.isdecimal()}')
